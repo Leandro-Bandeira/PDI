@@ -14,7 +14,9 @@ class DataImg{
             
             DataImg();
             void readImg(std::string path);
-            void applyFilters(int count, std::vector<tMask>filters);
+            void applyFilters(int count, std::vector<tMask>filters, int isSobel, std::string nameSave);
+            void applyPontRGB(std::string nameSave);
+            void applyPontYIQRGB(std::string nameSave);
 
         private:
             cv::Mat imgOriginal;

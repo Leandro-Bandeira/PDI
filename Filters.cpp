@@ -37,18 +37,7 @@ Filters::Filters(int count){
             if(row.empty()) continue;
             currentMask.mask.push_back(row);
         }
-        /*
-        for(int i = 0; i < m; i++){ 
-            std::vector<int> currentValues;
-            for(int j = 0; j < n; j++){
-                int value = 0;
-                file >> value;
-                currentValues.push_back(value);
-            }
-    
-            currentMask.mask.push_back(currentValues);
-        }
-        */
+
         currentMask.m = m;
         currentMask.n = n;
         currentMask.offset = offset;
