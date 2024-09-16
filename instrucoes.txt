@@ -1,0 +1,3 @@
+É necessário a instalação do openCv 
+Digite make no terminal
+compile com ./main

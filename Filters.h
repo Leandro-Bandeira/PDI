@@ -8,13 +8,11 @@
 class Filters{
         
     public:
-        Filters(int count);
+        Filters();
         void showFilters();
         
-        /* Temos um vetor tridimensional, onde representa os filtros em sequência
-         * e por fim o tamanho deles definidos */
-        std::vector<tMask>filters;
-        int count;
+        /* Filtro lido */
+        tMask filters;
 
     private:
 };
